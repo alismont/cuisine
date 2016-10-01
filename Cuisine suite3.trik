@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.5.53.0" Datum="2016-09-13T14:21:22.2972688+02:00" Taal="fr">
+  <RootNodes>
+    <StartNode Id="bd4bc9cf-7491-4005-8ce4-1f66bcb70309">
+      <Children>
+        <AutomatischeSchakelaar Id="55eb8a2b-029e-487f-9612-5cbe4701c61a" NominaleStroomsterkte="2">
+          <Children>
+            <Verdeelbord Id="ce7ee270-dddc-4a1a-abb6-c97b9124b4d5">
+              <Children>
+                <Omvormer Id="6d4f9998-5395-412c-ad24-a64641e58cb2">
+                  <Children>
+                    <DomoticaModule Id="81bae63a-7824-4376-9341-6e123fc77c8a" NaamModule="Récept2 radio">
+                      <Children>
+                        <DomoticaModule Id="aaf8c00f-55be-48ba-b0ab-c7a19f99d08a" NaamModule="Récept1 radio" />
+                      </Children>
+                    </DomoticaModule>
+                  </Children>
+                </Omvormer>
+                <Omvormer Id="333b2821-a88c-4050-b2f5-22237bea4b33">
+                  <Children>
+                    <DomoticaModule Id="2e45925d-dd6e-4e2f-a6d7-1368a4b8c28d" NaamModule="ARDUINO" />
+                  </Children>
+                </Omvormer>
+                <Aardingsstrip Id="24fa8d4e-7c33-4219-9014-e31a790527cf">
+                  <Children>
+                    <Aarding Id="c29f652d-3634-4cce-8e7b-c890d2ac3a50" />
+                  </Children>
+                </Aardingsstrip>
+              </Children>
+            </Verdeelbord>
+          </Children>
+        </AutomatischeSchakelaar>
+      </Children>
+    </StartNode>
+    <StartNode Id="59199169-0209-4b23-abb5-ac838946a03f" />
+  </RootNodes>
+  <Installateur Bijschrift="Schéma dessiné par: ">
+    <Adres>
+      <Land>België</Land>
+    </Adres>
+  </Installateur>
+  <Controleorganisme>
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+  </Controleorganisme>
+  <Klant PlaatsInstallatie="Adresse de l’installation électrique">
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+    <Naam>Lismont</Naam>
+    <Werfadres>
+      <Land>Belgique</Land>
+    </Werfadres>
+  </Klant>
+  <Gebruiker Naam="(Demo)" />
+  <Grondplan>
+    <Pages>
+      <GrondplanPage Id="4aba9c04-e970-4ece-8182-96b27a85b525">
+        <Muren />
+        <GrondplanElementen />
+        <GrondplanNodes />
+      </GrondplanPage>
+    </Pages>
+    <Breedte>22000</Breedte>
+    <Hoogte>15000</Hoogte>
+  </Grondplan>
+</Document>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.5.53.0" Datum="2016-09-13T14:21:22.2972688+02:00" Taal="fr">
+  <RootNodes>
+    <StartNode Id="bd4bc9cf-7491-4005-8ce4-1f66bcb70309">
+      <Children>
+        <AutomatischeSchakelaar Id="c74ea35c-38f9-4948-8438-0d01bf5f8def" NominaleStroomsterkte="6">
+          <Children>
+            <Verdeelbord Id="ce7ee270-dddc-4a1a-abb6-c97b9124b4d5">
+              <Children>
+                <DomoticaModule Id="8a5b679c-f1b9-4618-9eab-0ea16ded6a81" NaamModule="Carte 2 relais">
+                  <Children>
+                    <Lichtpunt Id="f325f411-ba50-4eb4-a15f-9bef06cd6580" Type="LED">
+                      <Satellites>
+                        <Nota Id="6382dce4-5994-4501-bdd6-aed0cc2998eb" Width="13.9674473" Height="6.46614552" Tekst="Spot côté&#xA;Hot">
+                          <Position X="-6.5" Y="-8.5" />
+                        </Nota>
+                      </Satellites>
+                    </Lichtpunt>
+                    <Lichtpunt Id="5131d299-5783-4c5e-b792-ca18e3133bc6" Type="LED">
+                      <Satellites>
+                        <Nota Id="fb2b567d-00d7-4617-b408-9eabae1a19ec" Width="13.9674473" Height="6.46614552" Tekst="Spot côté&#xA;évier">
+                          <Position X="-0.799999237" Y="-8.899994" />
+                        </Nota>
+                      </Satellites>
+                    </Lichtpunt>
+                    <DomoticaModule Id="a2fa6597-2db5-4a35-baf6-ed08f981fb47" NaamModule="ARDUINO">
+                      <Children>
+                        <AutomatischeSchakelaar Id="a61395bb-562f-4997-81fe-4613bf92eba1" AantalPolen="NietGespecifieerd" Type="Contact">
+                          <Satellites>
+                            <Nota Id="77723940-e7dd-4665-b380-6a1f037899b9" Width="18.2929688" Height="6.46614552" Tekst="De récepteur&#xA;bps poussoir">
+                              <Position X="9.099987" Y="-11.3999939" />
+                            </Nota>
+                          </Satellites>
+                        </AutomatischeSchakelaar>
+                        <AutomatischeSchakelaar Id="eccc24c1-51e5-4c64-b767-b233d92dbe83" AantalPolen="NietGespecifieerd" Type="Contact" />
+                      </Children>
+                    </DomoticaModule>
+                  </Children>
+                </DomoticaModule>
+                <Aardingsstrip Id="24fa8d4e-7c33-4219-9014-e31a790527cf">
+                  <Children>
+                    <Aarding Id="c29f652d-3634-4cce-8e7b-c890d2ac3a50" />
+                  </Children>
+                </Aardingsstrip>
+              </Children>
+            </Verdeelbord>
+          </Children>
+        </AutomatischeSchakelaar>
+      </Children>
+    </StartNode>
+    <StartNode Id="59199169-0209-4b23-abb5-ac838946a03f" />
+  </RootNodes>
+  <Installateur Bijschrift="Schéma dessiné par: ">
+    <Adres>
+      <Land>België</Land>
+    </Adres>
+  </Installateur>
+  <Controleorganisme>
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+  </Controleorganisme>
+  <Klant PlaatsInstallatie="Adresse de l’installation électrique">
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+    <Naam>Lismont</Naam>
+    <Werfadres>
+      <Land>Belgique</Land>
+    </Werfadres>
+  </Klant>
+  <Gebruiker Naam="(Demo)" />
+  <Grondplan>
+    <Pages>
+      <GrondplanPage Id="4aba9c04-e970-4ece-8182-96b27a85b525">
+        <Muren />
+        <GrondplanElementen />
+        <GrondplanNodes />
+      </GrondplanPage>
+    </Pages>
+    <Breedte>22000</Breedte>
+    <Hoogte>15000</Hoogte>
+  </Grondplan>
+</Document>

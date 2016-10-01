@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.5.53.0" Datum="2016-09-13T11:55:54.8563473+02:00" Taal="fr">
+  <RootNodes>
+    <StartNode Id="86e7eb3f-8113-46ce-9ed2-c9bc5c1ae1f5">
+      <Children>
+        <AutomatischeSchakelaar Id="9aad82a2-60e7-4fbc-aebe-d3dea3ede09c" VerliesStroomsterkte="300">
+          <Children>
+            <Verdeelbord Id="59f34b0c-ea88-4e56-aaa5-1deee62511fa">
+              <Children>
+                <AutomatischeSchakelaar Id="3b63788b-e656-49fb-a4a2-b67eff6ec4e6" NominaleStroomsterkte="16">
+                  <Children>
+                    <Leiding Id="7661d2f3-73d6-4a4d-aab9-e78f60c15a15" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                      <Children>
+                        <Leiding Id="4e90c703-3628-4de2-a2e4-16291b63bbd4" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                          <Children>
+                            <Contactdoos Id="3162bbc5-50d1-44b3-a002-0a5a19008385" Width="6">
+                              <Satellites>
+                                <Nota Id="c2774545-78f4-49ea-8e7f-c5fbdf236dc3" Width="10.6054688" Height="6.46614552" Tekst="PRISE&#xA;P1.2">
+                                  <Position X="0.199999809" Y="-9.400002" />
+                                </Nota>
+                              </Satellites>
+                            </Contactdoos>
+                          </Children>
+                        </Leiding>
+                      </Children>
+                    </Leiding>
+                    <Leiding Id="acee2e7a-42cc-4302-a686-f26cd548c2b4" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                      <Children>
+                        <Leiding Id="f332db09-6a07-4c24-9403-91ddbef417a8" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                          <Children>
+                            <Contactdoos Id="058fd3a2-8638-46bb-bd95-dbbd9b50ef9b" Width="6">
+                              <Satellites>
+                                <Nota Id="910770e0-3756-4bd2-af9d-3721ea7616ed" Width="10.6054688" Height="6.46614552" Tekst="PRISE&#xA;1.1">
+                                  <Position X="-0.002735138" Y="-9.399998" />
+                                </Nota>
+                              </Satellites>
+                            </Contactdoos>
+                          </Children>
+                        </Leiding>
+                      </Children>
+                    </Leiding>
+                  </Children>
+                </AutomatischeSchakelaar>
+                <AutomatischeSchakelaar Id="70b1b7a5-0d47-4dce-becc-9dce75ccf344" NominaleStroomsterkte="20">
+                  <Children>
+                    <Leiding Id="31f6baef-f442-482e-95f4-ffb0da5d2fd1" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                      <Children>
+                        <Leiding Id="0168acd9-8b96-4c72-b62c-e5493ebb3b29" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                          <Children>
+                            <Toestel Id="18a5a859-e082-4cd2-b2b2-d8d99be9604d" Type="Stoomoven">
+                              <Children>
+                                <Toestel Id="1a32eed3-fd7d-4cad-8f49-b35d5512d8fe" Type="Ventilator">
+                                  <Satellites>
+                                    <Nota Id="ba031790-708f-4ce0-9e07-98f79fd31fe1" Width="10.3420115" Height="3.31249952" Tekst="---O---">
+                                      <Position X="14.2972679" Y="-0.100002289" />
+                                    </Nota>
+                                  </Satellites>
+                                </Toestel>
+                              </Children>
+                            </Toestel>
+                          </Children>
+                        </Leiding>
+                      </Children>
+                    </Leiding>
+                  </Children>
+                </AutomatischeSchakelaar>
+                <AutomatischeSchakelaar Id="80bc6cc6-0a71-4ef2-a601-e1119210539d" NominaleStroomsterkte="32">
+                  <Children>
+                    <Leiding Id="4ac67bc1-539f-43e9-8d42-b368bff90a45" GeleiderDoorsnede="4" AantalGeleiders="3">
+                      <Children>
+                        <Toestel Id="f564fd61-aa3b-48b2-b03b-ffc5f415aa63" Type="Kookfornuis" />
+                      </Children>
+                    </Leiding>
+                  </Children>
+                </AutomatischeSchakelaar>
+                <AutomatischeSchakelaar Id="4089b583-bc7b-40da-987b-5196881077b6" NominaleStroomsterkte="16">
+                  <Children>
+                    <Leiding Id="503d2671-ba78-4a65-a145-05dc28e5d4fc" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                      <Children>
+                        <Contactdoos Id="5aaeb8e5-1d60-4a35-9677-5073524d458d" Width="6">
+                          <Children>
+                            <Leiding Id="7759f460-94e6-493c-84d0-5b45009d1b98" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                              <Children>
+                                <Contactdoos Id="881fd103-056c-442a-ac8c-94de37f61467" Width="6">
+                                  <Satellites>
+                                    <Nota Id="d018bc73-508b-4a8c-9f20-2ea0264683b2" Width="13.558157" Height="3.31249952" Tekst="PRISES ">
+                                      <Position X="0.4972763" Y="-7.59999657" />
+                                    </Nota>
+                                  </Satellites>
+                                </Contactdoos>
+                              </Children>
+                            </Leiding>
+                          </Children>
+                          <Satellites>
+                            <Nota Id="3f2a1c95-4917-4c7a-b9bb-b5536696178a" Width="13.558157" Height="3.31249952" Tekst="PRISES ">
+                              <Position X="12.6972733" Y="3.81469727E-06" />
+                            </Nota>
+                          </Satellites>
+                        </Contactdoos>
+                      </Children>
+                    </Leiding>
+                  </Children>
+                </AutomatischeSchakelaar>
+                <AutomatischeSchakelaar Id="450296ec-cd4e-4040-b7af-ce66f3d6a9e2" NominaleStroomsterkte="20">
+                  <Children>
+                    <Leiding Id="28668182-efeb-4017-a64b-b758e15ecd41" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                      <Children>
+                        <Leiding Id="85d54cad-6ae5-4aad-8370-af4a4e1653ce" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                          <Children>
+                            <Contactdoos Id="2e719d18-ad98-46dc-bc26-27fe35161372" Width="6">
+                              <Satellites>
+                                <Nota Id="94398a74-1b0b-404b-8ea3-50550ff38aa6" Width="17.3710938" Height="6.46614552" Tekst="PRISES &#xA;FENETRES">
+                                  <Position X="-0.4027481" Y="-10" />
+                                </Nota>
+                              </Satellites>
+                            </Contactdoos>
+                          </Children>
+                        </Leiding>
+                        <Leiding Id="aa931fb4-a8ce-4e19-82c9-3d688c553731" GeleiderDoorsnede="2,5" AantalGeleiders="3">
+                          <Children>
+                            <Toestel Id="166c9e57-0924-41a2-b21e-b95f605dbfca" Type="Koelkast">
+                              <Satellites>
+                                <Nota Id="7c2dfa1b-121a-40b2-96c8-3549c84f569b" Width="10.3420115" Height="3.31249952" Tekst="---O---">
+                                  <Position X="13.6972733" Y="0.100002289" />
+                                </Nota>
+                                <Nota Id="993b0afa-d9b1-4162-aa00-c1e412c0c1bd" Width="11.4179688" Height="6.46614552" Tekst="INT2&#xA;RADIO">
+                                  <Position X="12.497261" Y="-6.500002" />
+                                </Nota>
+                              </Satellites>
+                            </Toestel>
+                          </Children>
+                        </Leiding>
+                      </Children>
+                    </Leiding>
+                  </Children>
+                </AutomatischeSchakelaar>
+                <Aardingsstrip Id="917e48dc-bb66-46e4-bb58-eb1b8633fb6d">
+                  <Children>
+                    <Aarding Id="ccc7a6bf-ef79-4389-bc6e-7a963f07b8d8" />
+                  </Children>
+                </Aardingsstrip>
+              </Children>
+            </Verdeelbord>
+          </Children>
+        </AutomatischeSchakelaar>
+      </Children>
+    </StartNode>
+    <StartNode Id="d53518dd-8d81-4ef2-8432-c4fdd7332dae" />
+  </RootNodes>
+  <Installateur Bijschrift="Schéma dessiné par: ">
+    <Adres>
+      <Land>België</Land>
+    </Adres>
+  </Installateur>
+  <Controleorganisme>
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+  </Controleorganisme>
+  <Klant PlaatsInstallatie="Adresse de l’installation électrique">
+    <Adres>
+      <Land>Belgique</Land>
+    </Adres>
+    <Naam>Lismont</Naam>
+    <Werfadres>
+      <Land>Belgique</Land>
+    </Werfadres>
+  </Klant>
+  <Gebruiker Naam="(Demo)" />
+  <Grondplan>
+    <Pages>
+      <GrondplanPage Id="9f050b1e-8bfd-40f3-ada8-634f6c007897">
+        <Muren />
+        <GrondplanElementen>
+          <Muur>
+            <P1 X="1600" Y="1000" />
+            <P2 X="11100" Y="1000" />
+          </Muur>
+          <Muur>
+            <P1 X="13000" Y="1000" />
+            <P2 X="11100" Y="1000" />
+          </Muur>
+          <Muur>
+            <P1 X="13000" Y="1000" />
+            <P2 X="15900" Y="1000" />
+          </Muur>
+          <Muur>
+            <P1 X="17700" Y="1000" />
+            <P2 X="19000" Y="1000" />
+          </Muur>
+          <Muur>
+            <P1 X="19000" Y="1000" />
+            <P2 X="19000" Y="12000" />
+          </Muur>
+          <Muur>
+            <P1 X="12600" Y="12000" />
+            <P2 X="19000" Y="12000" />
+          </Muur>
+          <Muur>
+            <P1 X="5000" Y="12000" />
+            <P2 X="12600" Y="12000" />
+          </Muur>
+          <Rechthoek Breedte="1500" Hoek="-180" Hoogte="100">
+            <Center X="13450" Y="12050" />
+          </Rechthoek>
+          <Raam>
+            <P1 X="10700" Y="12000" />
+            <P2 X="17400" Y="12000" />
+          </Raam>
+          <Muur>
+            <P1 X="1000" Y="1000" />
+            <P2 X="1600" Y="1000" />
+          </Muur>
+          <Muur>
+            <P1 X="1000" Y="1000" />
+            <P2 X="1000" Y="8000" />
+          </Muur>
+        </GrondplanElementen>
+        <GrondplanNodes />
+      </GrondplanPage>
+    </Pages>
+    <Breedte>22000</Breedte>
+    <Hoogte>15000</Hoogte>
+  </Grondplan>
+</Document>
