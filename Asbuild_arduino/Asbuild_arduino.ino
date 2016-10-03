@@ -14,7 +14,12 @@ int SpotEvOn=0;
 int SpotHot = 12;
 int BpEscalHot=7;
 int BpEscalEv=3;
-int val=0;
+int val1=0;
+int val2=0;
+int val3=0;
+int val4=0;
+int val5=0;
+int val6=0;
 int B3[20];
 int TpsSgen=50;
 int Led13=13;
@@ -86,9 +91,9 @@ BpEvTps=0;
 
 
 //-----------EV--------------------
-val = digitalRead(BpEv);
+val1 = digitalRead(BpEv);
 
-if(val==0)
+if(val1==0)
 {
 Cpt_BpEv_val=Cpt_BpEv_val+1;
     if (Cpt_BpEv_val>15){
@@ -101,7 +106,7 @@ Cpt_BpEv_val=Cpt_BpEv_val+1;
 Cpt_BpEv_val=0;
 }
 
-if(val==0){
+if(val1==0){
     if(!B3[3])
     {
           B3[3] = 1.0;
@@ -140,9 +145,9 @@ if(B3[4] & outSpotEv==1 & BpEvTps==0)
 }
 
 //----------HOT---------------
-val = digitalRead(BpHot);
+val2 = digitalRead(BpHot);
 
-if(val==0)
+if(val2==0)
 {
 Cpt_BpHot_val=Cpt_BpHot_val+1;
     if (Cpt_BpHot_val>10){
@@ -157,7 +162,7 @@ Cpt_BpHot_val=0;
 
 
 
-if(val==0){
+if(val2==0){
     if(!B3[1])
     {
           B3[1] = 1.0;
@@ -197,9 +202,9 @@ if(B3[2] & outSpothot==1 & BpHotTps==0)
  
 
 //------ESCALIER---------------
-val = digitalRead(BpEscalEv);
+val3 = digitalRead(BpEscalEv);
  
-if(val==0){
+if(val3==0){
     if(!B3[5])
     {
           B3[5] = 1.0;
@@ -221,8 +226,8 @@ digitalWrite(SpotEv,LOW);
 outSpotEv=1;
 }
 
-val = digitalRead(BpEscalEv); 
-if(val==1){
+val4 = digitalRead(BpEscalEv); 
+if(val4==1){
     if(!B3[7])
     {
           B3[7] = 1.0;
@@ -246,9 +251,9 @@ outSpotEv=0;
 
 
 //----BP-HOT----
-val = digitalRead(BpEscalHot);
+val5 = digitalRead(BpEscalHot);
  
-if(val==1){
+if(val5==1){
     if(!B3[9])
     {
           B3[9] = 1.0;
@@ -270,9 +275,9 @@ digitalWrite(SpotHot,LOW);
 outSpothot=1;
 }
 
- val = digitalRead(BpEscalHot);
+ val6 = digitalRead(BpEscalHot);
  
-if(val==0){
+if(val6==0){
     if(!B3[11])
     {
           B3[11] = 1.0;
